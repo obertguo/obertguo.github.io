@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag 2 on Obert Guo</title>
+    <link>http://example.org/tags/tag-2/</link>
+    <description>Recent content in tag 2 on Obert Guo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 May 2021 21:51:42 -0400</lastBuildDate><atom:link href="http://example.org/tags/tag-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/posts/helloworld/</link>
+      <pubDate>Fri, 14 May 2021 21:51:42 -0400</pubDate>
+      
+      <guid>http://example.org/posts/helloworld/</guid>
+      <description>Example Site Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci eros, porttitor sed tristique non, ullamcorper at dui. Mauris et ex nisl. Etiam ut nisl congue, tempor orci at, consequat sem. Donec ultrices cursus mi, eget gravida sem tristique in. Donec convallis semper purus et hendrerit. Pellentesque sed congue est, sit amet cursus dui. Phasellus efficitur enim eu turpis maximus consequat eget eget felis. In egestas ipsum nisi, a rhoncus dui dapibus quis.</description>
+    </item>
+    
+  </channel>
+</rss>

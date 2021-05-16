@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Obert Guo</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Obert Guo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 May 2021 21:51:42 -0400</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tag 1</title>
+      <link>http://example.org/tags/tag-1/</link>
+      <pubDate>Fri, 14 May 2021 21:51:42 -0400</pubDate>
+      
+      <guid>http://example.org/tags/tag-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag 2</title>
+      <link>http://example.org/tags/tag-2/</link>
+      <pubDate>Fri, 14 May 2021 21:51:42 -0400</pubDate>
+      
+      <guid>http://example.org/tags/tag-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>http://example.org/tags/test1/</link>
+      <pubDate>Fri, 14 May 2021 21:30:41 -0400</pubDate>
+      
+      <guid>http://example.org/tags/test1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test2</title>
+      <link>http://example.org/tags/test2/</link>
+      <pubDate>Fri, 14 May 2021 21:30:41 -0400</pubDate>
+      
+      <guid>http://example.org/tags/test2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
