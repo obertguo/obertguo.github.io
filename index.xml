@@ -2,64 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obert Guo</title>
-    <link>http://example.org/</link>
+    <link>https://obertguo.ml/</link>
     <description>Recent content on Obert Guo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 22:57:47 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 22:57:47 -0400</lastBuildDate><atom:link href="https://obertguo.ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post 3</title>
-      <link>http://example.org/posts/post3/</link>
+      <link>https://obertguo.ml/posts/post3/</link>
       <pubDate>Sat, 15 May 2021 22:57:47 -0400</pubDate>
       
-      <guid>http://example.org/posts/post3/</guid>
+      <guid>https://obertguo.ml/posts/post3/</guid>
       <description>Second post  This is a test   asdfs
  hello</description>
     </item>
     
     <item>
       <title>Post 2</title>
-      <link>http://example.org/posts/post2/</link>
+      <link>https://obertguo.ml/posts/post2/</link>
       <pubDate>Sat, 15 May 2021 22:57:46 -0400</pubDate>
       
-      <guid>http://example.org/posts/post2/</guid>
+      <guid>https://obertguo.ml/posts/post2/</guid>
       <description>Second post  This is a test   asdfs
  hello</description>
     </item>
     
     <item>
       <title>Post 1</title>
-      <link>http://example.org/posts/post1/</link>
+      <link>https://obertguo.ml/posts/post1/</link>
       <pubDate>Sat, 15 May 2021 22:54:41 -0400</pubDate>
       
-      <guid>http://example.org/posts/post1/</guid>
+      <guid>https://obertguo.ml/posts/post1/</guid>
       <description>Hello world Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci eros, porttitor sed tristique non, ullamcorper at dui. Mauris et ex nisl. Etiam ut nisl congue, tempor orci at, consequat sem. Donec ultrices cursus mi, eget gravida sem tristique in. Donec convallis semper purus et hendrerit. Pellentesque sed congue est, sit amet cursus dui. Phasellus efficitur enim eu turpis maximus consequat eget eget felis. In egestas ipsum nisi, a rhoncus dui dapibus quis.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://example.org/posts/helloworld/</link>
+      <link>https://obertguo.ml/posts/helloworld/</link>
       <pubDate>Fri, 14 May 2021 21:51:42 -0400</pubDate>
       
-      <guid>http://example.org/posts/helloworld/</guid>
+      <guid>https://obertguo.ml/posts/helloworld/</guid>
       <description>Example Site Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci eros, porttitor sed tristique non, ullamcorper at dui. Mauris et ex nisl. Etiam ut nisl congue, tempor orci at, consequat sem. Donec ultrices cursus mi, eget gravida sem tristique in. Donec convallis semper purus et hendrerit. Pellentesque sed congue est, sit amet cursus dui. Phasellus efficitur enim eu turpis maximus consequat eget eget felis. In egestas ipsum nisi, a rhoncus dui dapibus quis.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://example.org/contact/</link>
+      <link>https://obertguo.ml/contact/</link>
       <pubDate>Fri, 14 May 2021 21:41:31 -0400</pubDate>
       
-      <guid>http://example.org/contact/</guid>
+      <guid>https://obertguo.ml/contact/</guid>
       <description>obertguo@gmail.com</description>
     </item>
     
     <item>
       <title>Old Post</title>
-      <link>http://example.org/posts/old-post/</link>
+      <link>https://obertguo.ml/posts/old-post/</link>
       <pubDate>Fri, 14 May 2021 21:30:41 -0400</pubDate>
       
-      <guid>http://example.org/posts/old-post/</guid>
+      <guid>https://obertguo.ml/posts/old-post/</guid>
       <description>Example Site Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci eros, porttitor sed tristique non, ullamcorper at dui. Mauris et ex nisl. Etiam ut nisl congue, tempor orci at, consequat sem. Donec ultrices cursus mi, eget gravida sem tristique in. Donec convallis semper purus et hendrerit. Pellentesque sed congue est, sit amet cursus dui. Phasellus efficitur enim eu turpis maximus consequat eget eget felis. In egestas ipsum nisi, a rhoncus dui dapibus quis.</description>
     </item>
     
