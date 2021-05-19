@@ -23,7 +23,7 @@ body{
     background: var(--background-primary); 
     color: var(--text-primary);
     /* transition: all 0.5s ease-in-out !important; */
-  }
+}
 
 
 /*NAV*/
@@ -109,8 +109,8 @@ nav{
 }
 
 #wrap{
-    margin-left:2%;
-    margin-right:2%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 #section{
@@ -167,4 +167,11 @@ i{
 
 hr{
     border-top: 5px solid var(--color-primary);
+}
+
+#coverImage{
+    width: 100px !important;
+    height: 100px !important;
+    background-color: red;
+    padding-left: 100px;
 }

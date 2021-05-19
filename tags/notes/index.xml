@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Obert Guo</title>
-    <link>https://obertguo.ml/</link>
-    <description>Recent content on Obert Guo</description>
+    <title>Notes on Obert Guo</title>
+    <link>https://obertguo.ml/tags/notes/</link>
+    <description>Recent content in Notes on Obert Guo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 22:57:46 -0400</lastBuildDate><atom:link href="https://obertguo.ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 22:57:46 -0400</lastBuildDate><atom:link href="https://obertguo.ml/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grade 11 Chemistry</title>
       <link>https://obertguo.ml/posts/grade-11-chemistry/</link>
@@ -21,15 +21,6 @@ Mixtures &amp;amp; Pure Substances   Pure substances cannot be broken down by ph
   Substances contain 2+ substances not joined together by chemical means
   Mixtures:
  Homogenous (solution) : Uniform appearance Heterogeneous: Distinctly different substances can be seen (phases)    Pure Substances  Element  Atoms Molecules (where 2+ atoms of the same element are bonded bonded together.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://obertguo.ml/contact/</link>
-      <pubDate>Fri, 14 May 2021 21:41:31 -0400</pubDate>
-      
-      <guid>https://obertguo.ml/contact/</guid>
-      <description>obertguo@gmail.com</description>
     </item>
     
   </channel>
