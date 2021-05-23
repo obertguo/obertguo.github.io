@@ -15,7 +15,7 @@
 
     /* Avoid blinding the user */
     /* filter: brightness(.8) contrast(1.2); */
-    filter: brightness(.8);
+    filter: brightness(.9);
     /* transition: all 0.5s ease-in-out !important; */
 }
 
@@ -172,8 +172,17 @@ hr{
 }
 
 img{
-    max-width: 50rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
     width: 100%;
-    
 }
 
+.katex {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    /* allow users to scroll if formula becomes too long */
+    overflow-x: auto;
+    overflow-y: hidden;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://obertguo.ml/bootstrap/bootstrap.css"/>
+
+        <link rel="icon" href="https://obertguo.ml/logo/logo.ico">
+
+        
+        <script src="https://kit.fontawesome.com/34fd283fdd.js" crossorigin="anonymous"></script>
+        
+        <script async src="https://arc.io/widget.min.js#9gUC3Cc6"></script>
+
+        
+        
+        
+        
+            
+            
+            
+                <meta property="og:description" content="Explanation of paper divisions—the math to divide N grids"/>
+            
+        
+
+        
+        <title>Paper Division | Obert Guo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Paper Division | Obert Guo"/>
+        <meta property="og:image" content="https://obertguo.ml/logo/logo.png"/>
+        <meta property="og:url" content="https://obertguo.ml/posts/paper-division/"/>
+        <meta name="theme-color" content="#007bff"/>
+
+        
+        <link rel="stylesheet" href="https://obertguo.ml/katex/katex.min.css">
+
+        
+        <script defer src="https://obertguo.ml/katex/katex.min.js"></script>
+    
+        
+        <script defer src = "https://obertguo.ml/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+        
+        <link rel="stylesheet" href="https://obertguo.ml/style.css"/>
+
+    </head>
+    
+    <body onload="applyTheme()">
+
+        <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class = "navbar-nav mx-auto">
+                
+                    <a href="/" class = "nav-item nav-link">Home</a>
+                
+                    <a href="/posts" class = "nav-item nav-link">Posts</a>
+                
+                    <a href="/contact" class = "nav-item nav-link">Contact</a>
+                
+            </ul>
+        </div>
+    </nav>
+</body>
+
+
+        
+        <div class="theme-toggle mt-2 ml-2">
+            <input type="checkbox" id="themeToggleCheckBox" onclick="themeToggle()"/>
+            <p id="themeToggleDescription" class="mr-3"></p>      
+        </div>
+
+        <div id = "wrap">
+            
+
+<div id = "wrap">
+    <div class="container-fluid" id="section">
+        <h1>Paper Division</h1>
+        <h5>Explanation of paper divisions—the math to divide N grids</h5>
+
+        
+         
+            <p>Tags:
+                
+                    <small>
+                        <a class="text-muted" href="https://obertguo.ml/tags/math">MATH</a>
+                    </small>
+                
+                    <small>
+                        <a class="text-muted" href="https://obertguo.ml/tags/origami">ORIGAMI</a>
+                    </small>
+                
+            </p>
+        
+
+        
+        
+            <p>By Obert Guo</p>
+            <p>Published Saturday, May 22, 2021</p>
+
+            
+            
+            
+            <img src="https://obertguo.ml/images/Paper%20Division/cover.jpg"  onerror="this.remove()"/>
+            <img src="https://obertguo.ml/images/Paper%20Division/cover.png" onerror="this.remove()"/>
+        
+
+        <hr>
+        <br>
+
+        <h1 id="introduction">Introduction</h1>
+<p>In origami, there may be times where a 13 x 13 grid or an 11 x 11 grid is needed. Such &ldquo;indivisble&rdquo; grids are hard to fold without measuring or cutting strips off, since realistically, the paper can only be accurately bisected.</p>
+<h1 id="method">Method</h1>
+<p>One way to fold an N x N grid is to use reference points.</p>
+<p>Let us plot a square on a Cartesian plane, with the bottom-left corner of the square placed about the origin.</p>
+<p><img src="/images/Paper%20Division/1.png" alt="Square 1"></p>
+<p>Let x represent a point along the x-axis where it lies on a line that is on the N x N grid. Let z represent a known reference crease or point. A diagonal line will bisect the square.</p>
+<p><img src="/images/Paper%20Division/2.png" alt="Square 2"></p>
+<p>The equation of the diagonal line from the top-right corner to the bottom-right corner can be represented as 
+$$y=-x+1$$</p>
+<p>The equation of the diagonal line from the origin to point z on the square can be represented as 
+$$y=zx$$</p>
+<p>To find their point of intersection, both equations will be set to equal each other
+$$-x+1 = zx$$</p>
+<p>Which can rearranged to
+$$z = \frac{-x+1}{x}$$</p>
+<p>If z is a well known reference point that is easily divisible, then z can be represented as a positive rational 
+$$z = \frac{a}{b}\text{ where } a,b \in \mathbb{N} \text{ and } b &gt; a$$</p>
+<p>Therefore
+$$\frac{a}{b} =  \frac{-x+1}{x}$$
+$$ax = -bx + b$$
+$$(a+b)x = b$$
+$$x = \frac{b}{a+b}$$</p>
+<p>Since x represents a point that lies on a line on an N x N grid, then x can also be expressed as a rational where the denominator represents the Nth division</p>
+<p>$$N = a+b$$</p>
+<p>Thus, any number chosen for a and b such that b is greater than a, could be used to form an N x N division. 
+However, in the context of origami, the number chosen for b should idealy be a power of 2, since only bisections can be done accurately.</p>
+<p>$$z = \frac{a}{2^n} \text{ where } 2^n \text{ is the largest power of 2 less than N }(\because b &gt; a)$$</p>
+<h1 id="summary">Summary</h1>
+<p>To divide a square into a N x N division, 
+$$\text{1. Determine the largest power of 2, assigned as $$b$$}$$
+$$\text{2. Subtract $$b$$ from N to determine the integer $$a$$}$$ 
+$$\text{3. Create a reference crease at }\frac{a}{b}$$ 
+$$\text{4. The point of intersection between the line from the bottom left corner to the reference crease } \frac{a}{b}$$ $$\text{and the line from the top-left corner to bottom-right corner, is a point that will lie on the Nth divisions}$$ $$\frac{b}{a+b}$$</p>
+<p><img src="/images/Paper%20Division/3.png" alt="Square 3"></p>
+
+
+    </div>
+</div>
+
+    
+
+
+        </div>
+        
+        
+        <div class="mb-5"></div>
+
+        
+        <script src = "https://obertguo.ml/scripts/themeToggle.js"></script>
+
+        <script src="https://obertguo.ml/bootstrap/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://obertguo.ml/bootstrap/popper.min.js"></script>
+        <script src="https://obertguo.ml/bootstrap/bootstrap.min.js"></script>
+
+    </body>
+</html>

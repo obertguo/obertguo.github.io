@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Obert Guo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 May 2021 22:57:46 -0400</lastBuildDate><atom:link href="https://obertguo.ml/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 16:29:44 -0400</lastBuildDate><atom:link href="https://obertguo.ml/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Division</title>
+      <link>https://obertguo.ml/posts/paper-division/</link>
+      <pubDate>Sat, 22 May 2021 16:29:44 -0400</pubDate>
+      
+      <guid>https://obertguo.ml/posts/paper-division/</guid>
+      <description>Introduction In origami, there may be times where a 13 x 13 grid or an 11 x 11 grid is needed. Such &amp;ldquo;indivisble&amp;rdquo; grids are hard to fold without measuring or cutting strips off, since realistically, the paper can only be accurately bisected.
+Method One way to fold an N x N grid is to use reference points.
+Let us plot a square on a Cartesian plane, with the bottom-left corner of the square placed about the origin.</description>
+    </item>
+    
     <item>
       <title>Grade 11 Chemistry</title>
       <link>https://obertguo.ml/posts/grade-11-chemistry/</link>
