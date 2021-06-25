@@ -1,17 +1,29 @@
 :root{
+    --nav-color: #181818;
+    --nav-text: #fff;
+    --nav-hover: #121212;
+
     --color-primary: #007bff;
     --text-primary: #212529;
     --background-primary: #fff;
+
     --tag-color: #6c757d;
     --border-primary: rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] {
-    --color-primary: #9980FA;
+    --nav-color: #181818;
+    --nav-text: #fff;
+    --nav-hover: #121212;
+
+    --color-primary: #b3b3b3;
     --background-primary: #121212;
     --text-primary: #fff;
+
     --tag-color: #E5E5E5;
-    --border-primary: rgba(255, 255, 255, 0.5);
+    --border-primary: rgba(0, 0, 0, 0.2);
+
+    --card-background: #181818;
 
     /* Avoid blinding the user */
     /* filter: brightness(.8) contrast(1.2); */
@@ -29,7 +41,7 @@ body{
 
 /*NAV*/
 .nav-link{
-    color: var(--background-primary) !important;
+    color: var(--nav-text) !important;
 }
 .navbar-toggler {
     outline: none;
@@ -51,12 +63,12 @@ body{
 }
 
 .nav-item:hover, .nav-item:active{
-    background:var(--background-primary);
+    background:var(--nav-hover);
     color:var(--color-primary) !important;
 }
 
 nav{
-    background-color: var(--color-primary) !important;
+    background-color: var(--nav-color) !important;
 }
 
 
@@ -69,7 +81,7 @@ nav{
 
     margin-left:0.5rem;
     margin-right:0.5rem;
-    background: var(--background-primary);
+    background: var(--card-background);
     /* transition: all 0.5s ease-in-out !important; */
 }
 
@@ -129,8 +141,10 @@ nav{
 }
 
 #logo{
+    object-fit: cover;
     border-radius: 50%;
     width: 13rem;
+    height: 13rem;
 }
 
 #intro{
@@ -181,8 +195,13 @@ img{
 
 .katex {
     font-size: 1.3em;
-    line-height: 1.3em;
+    line-height: 1.7em;
     /* allow users to scroll if formula becomes too long */
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+td, th{
+    padding: 1rem;
+    border: 1px solid var(--color-primary);
 }
