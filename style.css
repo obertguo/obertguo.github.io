@@ -9,6 +9,8 @@
 
     --tag-color: #6c757d;
     --border-primary: rgba(0, 0, 0, 0.2);
+
+    --card-background: #efefef;
 }
 
 [data-theme="dark"] {
@@ -21,7 +23,8 @@
     --text-primary: #fff;
 
     --tag-color: #E5E5E5;
-    --border-primary: rgba(0, 0, 0, 0.2);
+    /* --border-primary: rgba(0, 0, 0, 0.2); */
+    --border-primary: rgba(255, 255, 255, 0.5);
 
     --card-background: #181818;
 
@@ -74,10 +77,12 @@ nav{
 
 /*CARD */
 .card-body{
-    border-top: 3px solid var(--color-primary);
+    border-top: 2px solid var(--color-primary);
+    
+    /* border: 1px solid var(--border-primary); */
 
-    /*Card shadow effect*/
-    box-shadow: 0 3px 8px 0 var(--border-primary);
+    /* Card shadow effect
+    box-shadow: 0 2px 2px 0 var(--border-primary); */
 
     margin-left:0.5rem;
     margin-right:0.5rem;
@@ -189,6 +194,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
     max-width: 40rem;
     width: 100%;
 }
@@ -204,4 +210,8 @@ img{
 td, th{
     padding: 1rem;
     border: 1px solid var(--color-primary);
+}
+
+code{
+    border: 1px solid var(--border-primary);
 }
