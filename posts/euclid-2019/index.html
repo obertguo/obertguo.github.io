@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://obertguo.ml/bootstrap/bootstrap.css"/>
+
+        <link rel="icon" href="https://obertguo.ml/logo/logo.ico">
+
+        
+        <script src="https://kit.fontawesome.com/34fd283fdd.js" crossorigin="anonymous"></script>
+        
+        <script async src="https://arc.io/widget.min.js#9gUC3Cc6"></script>
+
+        
+        
+        
+        
+            
+            
+            
+                <meta property="og:description" content="2019 Euclid Contest - Solution Walkthrough"/>
+            
+        
+
+        
+        <title>Euclid 2019 | Obert Guo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Euclid 2019 | Obert Guo"/>
+        <meta property="og:image" content="https://obertguo.ml/logo/logo.png"/>
+        <meta property="og:url" content="https://obertguo.ml/posts/euclid-2019/"/>
+        <meta name="theme-color" content="#007bff"/>
+
+        
+        <link rel="stylesheet" href="https://obertguo.ml/katex/katex.min.css">
+
+        
+        <script defer src="https://obertguo.ml/katex/katex.min.js"></script>
+    
+        
+        <script defer src = "https://obertguo.ml/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+        
+        <link rel="stylesheet" href="https://obertguo.ml/highlightjs/github-dark.min.css">
+        <script src="https://obertguo.ml/highlightjs/highlight.min.js"></script>
+
+        <script>
+            hljs.highlightAll();
+        </script>
+
+
+        
+        <link rel="stylesheet" href="https://obertguo.ml/style.css"/>
+
+    </head>
+    
+    <body onload="applyTheme()">
+
+        <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class = "navbar-nav mx-auto">
+                
+                    <a href="/" class = "nav-item nav-link">Home</a>
+                
+                    <a href="/posts" class = "nav-item nav-link">Posts</a>
+                
+                    <a href="/contact" class = "nav-item nav-link">Contact</a>
+                
+            </ul>
+        </div>
+    </nav>
+</body>
+
+
+        
+        <div class="theme-toggle mt-2 ml-2">
+            <input type="checkbox" id="themeToggleCheckBox" onclick="themeToggle()"/>
+            <p id="themeToggleDescription" class="mr-3"></p>      
+        </div>
+
+        <div id = "wrap">
+            
+
+<div id = "wrap">
+    <div class="container-fluid" id="section">
+        <h1>Euclid 2019</h1>
+        <h5>2019 Euclid Contest - Solution Walkthrough</h5>
+
+        
+         
+            <p>Tags:
+                
+                    <small>
+                        <a class="text-muted" href="https://obertguo.ml/tags/math">MATH</a>
+                    </small>
+                
+                    <small>
+                        <a class="text-muted" href="https://obertguo.ml/tags/euclid">EUCLID</a>
+                    </small>
+                
+                    <small>
+                        <a class="text-muted" href="https://obertguo.ml/tags/solutions">SOLUTIONS</a>
+                    </small>
+                
+            </p>
+        
+
+        
+        
+            <p>By Obert Guo</p>
+            <p>Published Tuesday, Jun 29, 2021</p>
+
+            
+            
+            
+            <img src="https://obertguo.ml/images/Euclid%202019/cover.jpg"  onerror="this.remove()"/>
+            <img src="https://obertguo.ml/images/Euclid%202019/cover.png" onerror="this.remove()"/>
+        
+
+        <hr>
+        <br>
+
+        <h2 id="1a">1a</h2>
+<p>Joyce has two identical jars. The first jar is 3/4 full of water and contains 300 mL of water. The second jar is 1/4 full of water. How much water, in mL, does the second jar contain?</p>
+<p>$$ \frac{3}{4} \text{water} = 300mL $$
+$$ \frac{1}{4} = 100mL $$
+$$ \therefore \text{The second jar has 100mL of water} $$</p>
+<h2 id="1b">1b</h2>
+<p>What integer a satisfies 3 &lt; 24/a &lt; 4 ?</p>
+<p>$$ 3 \lt \frac{24}{a} \lt 4 $$
+$$ \text{Note that a must be a positive integer} $$
+$$ \because a &gt; 0 \therefore 3a \lt 24 \lt 4a $$ 
+$$ 3a \lt 24 \implies a \lt 8 \text{ and } 24 \lt 4a \implies 6 \lt a$$
+$$ \because 6 \lt a \lt 8 \text { and } a \in \N  \therefore a = 7 $$</p>
+<h2 id="1c">1c</h2>
+<p>If 1/x^2 - 1/x = 2, determine all possible values of x.</p>
+<p>$$ \frac{1}{x^2} - \frac{1}{x} = 2 ; x \neq 0 $$
+$$ 1 - x = 2x^2 $$
+$$ 0 = 2x^2 + x - 1 $$
+$$ 0 = (2x-1)(x+1) $$
+$$ \therefore x = -1 \text{ or } x = \frac{1}{2} $$</p>
+<h2 id="2a">2a</h2>
+<p>In the diagram, two small circles of radius 1 are tangent to each other and to a larger circle of radius 2. What is the area of the shaded region?
+<img src="/images/Euclid%202019/2a.png" alt="Question 2a"></p>
+<p>$$ A_\text{shaded} = A_\text{large circle} - 2A_\text{small circle} $$
+$$ = \pi(2)^2 - 2\pi(1)^2 $$
+$$ = 2\pi $$</p>
+<h2 id="2b">2b</h2>
+<p>Kari jogs at a constant speed of 8 km/h. Mo jogs at a constant speed of 6 km/h.
+Kari and Mo jog from the same starting point to the same finishing point along
+a straight road. Mo starts at 10:00 a.m. Kari and Mo both finish at 11:00 a.m.
+At what time did Kari start to jog?</p>
+<p>$$ s_K = 8km/h $$
+$$ s_M = 6km/h $$</p>
+<p>$$ \text{Using time/distance/speed formulas, this can be expressed} $$
+$$ \Delta d_K = s_K\Delta t_K $$
+$$ \Delta d_M = s_M\Delta t_M $$
+$$ \because \text{The two ran the same distance } \therefore s_K\Delta t_K = s_M\Delta t_M $$
+$$ \Delta t_K = \frac{s_M\Delta t_M}{s_K} $$
+$$ \text{Knowing that Mo took 1 hour to jog from 10 am to 11 am} $$
+$$\Delta t_K = \frac{6km/h \times 1h}{8km/h} $$
+$$\Delta t_K = \frac{3}{4}h $$
+$$\therefore \text{Kari took 45 minutes to run the same distance, and thus, started at 10:15am} $$</p>
+<h2 id="2c">2c</h2>
+<p>The line with equation x+ 3y = 7 is parallel to the line with equation y = mx+b.
+The line with equation y = mx + b passes through the point (9, 2). Determine
+the value of b.</p>
+<p>$$ \text {The slope of the equation y=mx+b must have the same slope as x+3y=7 for it to be parallel} $$
+$$ \text{Thus, determine the slope of x+3y = 7 by rearranging it to slope-intercept form: } y = \frac{-1}{3}x + \frac{7}{3}$$</p>
+<p>$$ m = \frac{-1}{3} $$
+$$ \text{Thus, } y = \frac{-1}{3}x + b$$
+$$ \text{Sub (9,2) for (x,y)} $$
+$$ 2 = \frac{-9}{3} + b $$
+$$ \therefore b = 5$$</p>
+<h2 id="3a">3a</h2>
+<p>Michelle calculates the average of the following numbers:
+5, 10, 15, 16, 24, 28, 33, 37.
+Daphne removes one number and calculates the average of the remaining
+numbers. The average that Daphne calculates is one less than the average that
+Michelle calculates. Which number does Daphne remove?</p>
+<p>$$ Avg_\text{Michelle} = \frac{5 + 10 + &hellip; + 37}{8} = 21 $$
+$$ \text{Thus, } Avg_\text{Daphne} = 20 $$
+$$ \because \text{Daphne removes 1 number from the set, the total sum she added up before dividing is } 20 \times 7 = 140 $$
+$$ \text{The sum Michelle added up is 168} $$
+$$168 - 140 = 28 \therefore \text{ Daphne removed the number 28 from Michelle&rsquo;s set} $$</p>
+<h2 id="3b">3b</h2>
+<p>If 16 ^ (15/x) = 32 ^(4/3), what is the value of x?
+$$\text{Rewrite into the same base (which is 2)} $$
+$$2^{4}{^{\frac{15}{x}}} = 2^{5}{^{\frac{4}{3}}}$$
+$$ \because \text{both sides have the same base} \therefore \frac{60}{x} = \frac{20}{3} $$
+$$ \therefore x = 9 $$</p>
+<h2 id="3c">3c</h2>
+<p>Suppose that (2^2022 + 2^a) / 2^2019 = 72. Determine the value of a
+$$ \frac{2^{2022} + 2^a}{2^{2019}} = 72 $$
+$$ \text{For simplicity, let } b = 2^{2019} $$
+$$ \frac{2^3b + 2^a}{b} = 72$$ 
+$$ 8b + 2^a = 72b $$
+$$ 2^a = 64b $$
+$$ 2^a = 2^6 \times 2^{2019} $$
+$$ 2^a = 2^{2025} $$
+$$ \therefore a = 2025 $$</p>
+<h2 id="4a">4a</h2>
+<p>In the diagram, triangle ABC has a right angle at
+B and point D lies on AB. If DB = 10,
+∠ACD = 30◦ and ∠CDB = 60◦, what is the
+length of AD?
+<img src="/images/Euclid%202019/4a.png" alt="Question 4a"></p>
+<p>$$ \text{Note that } \triangle CDB \text{ is a 30-60-90 triangle, and thus, } CB = 10\sqrt3$$
+$$ \text{Note that } \triangle ABC \text { is also a 30-60-90 triangle, and thus } AB = 10\sqrt3\sqrt3 = 30$$
+$$ AD = AB - DB $$
+$$ AD = 30 - 10 $$
+$$\therefore AD = 20 $$</p>
+<h2 id="4b">4b</h2>
+<p>The points A(d, −d) and B(−d + 12, 2d − 6) both lie on a circle centered at the
+origin. Determine the possible values of d.</p>
+<p>$$ \text{Knowing that } x^2 + y^2 = r^2 \text { since it is a circle about the origin } $$
+$$ r^2 = d^2 + (-d)^2 \text{ and } r^2 = (-d+12)^2 + (2d-6)^2 $$
+$$ 2d^2 = d^2 -24d + 144 + 4d^2 - 24d + 36 $$
+$$ 0 = 3d^2 - 48d + 180 $$
+$$ 0 = d^2 - 16d + 60 $$
+$$ 0 = (d-10)(d-6) $$
+$$ \therefore d = 6 \text { or } d = 10 $$</p>
+<h2 id="5a">5a</h2>
+<p>Determine the two pairs of positive integers (a, b) with a &lt; b that satisfy the
+equation √a + √b = √50</p>
+<p>$$ \sqrt a + \sqrt b = \sqrt{50} $$
+$$ \sqrt b = \sqrt{50} - \sqrt a $$
+$$ b = 50 + a - 2\sqrt{50a} $$
+$$ b = 50 + a - 2(5)\sqrt{2a} $$
+$$ b = 50 + a - 10\sqrt{2a} $$
+$$ \because b \in \N \therefore a \in \{2, 2^3, 2^5, &hellip;,2^{2n-1}\} $$
+$$ \text{Iterate through the list to find valid values for b} $$
+$$ (a = 2, b = 32) \cup (a = 8, b = 18) $$
+$$ \text{ Note that when } a \geq 2^5, a &gt; b. $$
+$$\text{ Thus, other squares that can be substituted for a (e.g., 4, 9, 16, etc) will not work after being multiplied by 2 to eleminate the radical }$$
+$$ \therefore (2, 32) \cup (8, 18) $$</p>
+<h2 id="5b">5b</h2>
+<p>Consider the system of equations:
+c + d = 2000; c/d = k
+Determine the number of integers k with k ≥ 0 for which there is at least one
+pair of integers (c, d) that is a solution to the system.</p>
+<p>$$ \text{Rearrange both equations in terms of d} $$
+$$ c = 2000 - d \text{ and } c = kd $$
+$$ \text{Thus, } 2000-d = kd $$
+$$  2000 = kd + d $$
+$$ 2000 = d(k + 1) $$
+$$ \frac{2000}{k+1} = d $$
+$$ \because k \geq 0 \text{ and } d \in \Z \therefore k+1 | 2000 \text { and } k+1 \geq 1$$
+$$ \text{Furthermore } k+1 | 2000 \text { and } k+1 \geq 1 \implies d \in \N \implies c \in \N $$
+$$ \text{Thus, determine the number of unique factors of 2000, using prime factorization }$$
+$$ 2000 = 2^4 \times 5^3 \text{ which means there are } 5 \times 4 = 20 \text{ possible factors that are positive for } k+1  $$ 
+$$ \therefore \text{There are 20 possible solutions, and thus, 20 different values for k} $$</p>
+<h2 id="6a">6a</h2>
+<p>A regular pentagon covers part of another
+regular polygon, as shown. This regular
+polygon has n sides, five of which are
+completely or partially visible. In the
+diagram, the sum of the measures of the
+angles marked a◦ and b◦ is 88◦. Determine the value of n.
+(The side lengths of a regular polygon are
+all equal, as are the measures of its interior
+angles.)</p>
+<p><img src="/images/Euclid%202019/6a.png" alt="Question 6a"></p>
+<p>$$\text{Note that the sum of interior angles of any n degree polygon (regular or irregular) is } 180\degree (n - 2) $$
+<img src="/images/Euclid%202019/6aSolution.png" alt="Question 6a"></p>
+<p>$$ \text{Looking at the 7 sided polygon here, the sum of its interior angles is } 180\degree (7-2) = 900 \degree $$
+$$ \text{Let x represent the interior angle of the unknown regular polygon} $$
+$$ 900 \degree = a \degree + b \degree + 4x \degree \text { and } a \degree + b \degree = 88 \degree$$
+$$ 4x \degree = 560 \degree \implies x = 140 \degree$$
+$$ \because \text{The interior angle is } 140 \degree \therefore \frac{180 \degree (n - 2)}{n} = 140\degree \text{ where n represents the number of sides the unknown polygon has} $$
+$$ \therefore n = 9 $$</p>
+<h2 id="6b">6b</h2>
+<p>In trapezoid ABCD, BC is parallel to AD
+and BC is perpendicular to AB. Also, the
+lengths of AD, AB and BC, in that order,
+form a geometric sequence. Prove that AC is
+perpendicular to BD.
+(A geometric sequence is a sequence in which
+each term after the first is obtained from the
+previous term by multiplying it by a non-zero
+constant.)</p>
+<p><img src="/images/Euclid%202019/6b.png" alt="Question 6b"></p>
+<p>$$\text{An easy way to prove that line segment AC and BD are perpendicular is to plot the trapezoid on a cartesian plane}$$
+$$\text{Let } |\overline{AD}| = a, |\overline{AB}| = ar, |\overline{BC}| = ka^2$$
+$$\text{And then plot the trapezoid like so}$$
+<img src="/images/Euclid%202019/6bSolution.png" alt="Question 6b"></p>
+<p>$$\text{To prove that AC and BD are perpendicular, compare the slopes of line AC and BD to see if they are negative reciprocals of each other}$$
+$$m_{AC} = \frac{-ar}{ar^2} = \frac{-1}{r}$$
+$$m_{BD} = \frac{ar}{a} = r$$
+$$\because m_{AC} = \frac{-1}{m_{BD}} \therefore \overline{AC} \text{ and } \overline{BD} \text{ are perpendicular}$$</p>
+<h2 id="7a">7a</h2>
+<p>Determine all real numbers x for which 2 log_{2}(x − 1) = 1 − log_{2}(x + 2).</p>
+<p>$$ \text{ The logarithmic function on both sides is not defined for values less than 0} $$
+$$ \text{Thus, }\because x-1 &gt; 0 \text{ or } x+2 &gt; 0 \therefore x &gt; 1 $$</p>
+<p>$$\text{Using log and exponent laws, the equation can be rearranged like so}$$
+$$2\log_2(x-1) = 1 - \log_2(x+2)$$
+$$\log_2[(x-1)^2] + \log_2(x+2) = 1$$
+$$\log_2((x^2 - 2x + 1)(x+2)) = 1$$
+$$\log_2(x^3 + 2x^2 - 2x^2 - 4x + x + 2) = 1$$
+$$2^1 = x^3 - 3x + 2$$
+$$0 = x^3 - 3x$$
+$$0 = x(x^2 - 3)$$
+$$ x = 0 \text{ or } x = \pm\sqrt{3}$$
+$$\because x &gt; 1 \therefore \text{ the only possible value for x is } \sqrt{3} $$</p>
+<h2 id="7b">7b</h2>
+<p>Consider the function f(x) = x^2 − 2x. Determine all real numbers x that satisfy
+the equation f(f(f(x))) = 3</p>
+<p>$$ \text{Let a } = f(f(x))$$
+$$ f(a) = 3 $$
+$$ a^2 - 2a - 3 = 0$$
+$$ (a-3)(a+1) = 0$$
+$$ a = 3 \text { or } a = -1$$
+$$f(f(x)) = 3 \text{ or } f(f(x)) = -1$$
+$$ \text{Let b = } f(x) $$
+$$f(b) = 3 \text{ or } f(b) = -1$$
+$$b^2 - 2b - 3 = 0 \text{ or } b^2 - 2b + 1 = 0$$
+$$(b - 3)(b + 1) = 0 \text{ or } (b-1)^2 = 0$$
+$$b = 3 \text{ or } b = -1 \text{ or } b = 1$$
+$$f(x) = 3 \text{ or } f(x) = -1 \text{ or } f(x) = 1$$
+$$x^2 - 2x - 3 = 0 \text{ or } x^2 - 2x + 1 = 0 \text{ or } x^2 - 2x -1 = 0$$
+$$\text{Solving for the three quadratic equations, } x = 3 \text { or } x = \pm1 \text{ or } x = 1 \pm \sqrt2$$</p>
+<h2 id="8a">8a</h2>
+<p>A circle has centre O and radius 1. Quadrilateral
+ABCD has all 4 sides tangent to the circle
+at points P, Q, S, and T, as shown. Also,
+∠AOB = ∠BOC = ∠COD = ∠DOA. If
+AO = 3, determine the length of DS.
+<img src="/images/Euclid%202019/8a.png" alt="Question 8a">
+$$ \because \angle{AOB} =\angle{BOC} = \angle{COD} = \angle{DOA} \text{ and form a circle } \therefore \text{ they are all } 90\degree $$
+$$\text{Thus, the quadrilateral is a parallelogram shape where } \triangle{AOB}, \triangle{BOC}, \triangle{COD}, \triangle{DOA} \text{ are identical} $$
+<img src="/images/Euclid%202019/8aSolution.png" alt="Question 8a"></p>
+<p>$$\text{Therefore, the diagram can be simplified and focus on either of the four triangles.}$$
+$$\text{For example, using triangle DOA, where the length of TD = DS, the length of OT = 1, and the length of AO = 3}$$ 
+<img src="/images/Euclid%202019/8aSolution1.png" alt="Question 8a">
+$$\because \angle{OTD} = \angle{ATO} \text{ and } \angle{TDO} = \angle{TOA} \therefore\triangle{OTD} \cong \triangle{ATO} $$
+$$ \frac{|\overline{TD}|}{|\overline{TO}|} = \frac{|\overline{TO}|}{|\overline{TA}|}$$
+$$ |\overline{TA}| = \sqrt{|\overline{TO}|^2 + |\overline{AO^2}|}$$ 
+$$ |\overline{TA}| = \sqrt{1^2 + 3^2} = 2\sqrt{2}$$
+$$|\overline{TA}| = \frac{|\overline{TO}|^2}{|\overline{TA}|} = \frac{1}{2\sqrt2}$$
+$$\therefore |\overline{DS}| = \frac{1}{2\sqrt2}$$</p>
+<h2 id="8b">8b</h2>
+<p>Suppose that x satisfies 0 &lt; x &lt; π/2 and cos(3/2 cos x) = sin(3/2 sin x).
+Determine all possible values of sin2x, expressing your answers in the form
+(aπ^2 + bπ + c) / d where a, b, c, d are integers.</p>
+<p>$$ 0 \lt x \lt \frac{\pi}{2} \iff 0 \lt \cos x \lt 1 \implies 0 \lt \frac{3}{2}\cos x \lt \frac{3}{2}$$ 
+$$ 0 \lt x \lt \frac{\pi}{2} \iff 0 \lt \sin x \lt 1 \implies 0 \lt \frac{3}{2}\sin x \lt \frac{3}{2}$$</p>
+<p>$$\text{Let } \frac{3}{2}\cos x \text{ and } \frac{3}{2}\sin x \text{ be a and b respectively} $$
+$$ 0 \lt a \lt \frac{3}{2} \text{ and } 0 \lt b \lt \frac{3}{2} $$
+$$ \cos a = \sin b $$
+$$\text{Note that when a triangle is inscribed in a unit circle, cos a represents the height of the triangle and sin b represents the width of the triangle.}$$
+$$\text{When cos a = sin b, the triangle is a right-angled isosceles where a = b = } \frac{\pi}{4}$$
+$$ \text{Note that } \frac{\pi}{4} \lt \frac{3}{2}$$
+$$\therefore a + b = \frac{\pi}{2}$$
+$$\frac{3}{2}\cos x + \frac{3}{2}\sin x = \frac{\pi}{2}$$
+$$\cos x + \sin x = \frac{\pi}{3}$$
+$$\cos^2 x + 2\cos x\sin x + \sin^2 x = \frac{\pi^2}{9}$$
+$$2\cos x\sin x = \frac{\pi^2 - 9}{9}$$
+$$\therefore \sin 2x = \frac{\pi^2 - 9}{9}$$</p>
+
+
+    </div>
+</div>
+
+    
+
+
+        </div>
+        
+        
+        <div class="mb-5"></div>
+
+        
+        <script src = "https://obertguo.ml/scripts/themeToggle.js"></script>
+
+        <script src="https://obertguo.ml/bootstrap/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://obertguo.ml/bootstrap/popper.min.js"></script>
+        <script src="https://obertguo.ml/bootstrap/bootstrap.min.js"></script>
+
+        
+
+    </body>
+</html>

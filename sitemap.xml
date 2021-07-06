@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://obertguo.ml/tags/euclid/</loc>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
+  </url><url>
+    <loc>https://obertguo.ml/posts/euclid-2019/</loc>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
+  </url><url>
     <loc>https://obertguo.ml/tags/math/</loc>
-    <lastmod>2021-05-22T16:29:44-04:00</lastmod>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
   </url><url>
     <loc>https://obertguo.ml/</loc>
-    <lastmod>2021-05-22T16:29:44-04:00</lastmod>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
+  </url><url>
+    <loc>https://obertguo.ml/posts/</loc>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
+  </url><url>
+    <loc>https://obertguo.ml/tags/solutions/</loc>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
+  </url><url>
+    <loc>https://obertguo.ml/tags/</loc>
+    <lastmod>2021-06-29T21:39:36-04:00</lastmod>
   </url><url>
     <loc>https://obertguo.ml/tags/origami/</loc>
     <lastmod>2021-05-22T16:29:44-04:00</lastmod>
   </url><url>
     <loc>https://obertguo.ml/posts/paper-division/</loc>
-    <lastmod>2021-05-22T16:29:44-04:00</lastmod>
-  </url><url>
-    <loc>https://obertguo.ml/posts/</loc>
-    <lastmod>2021-05-22T16:29:44-04:00</lastmod>
-  </url><url>
-    <loc>https://obertguo.ml/tags/</loc>
     <lastmod>2021-05-22T16:29:44-04:00</lastmod>
   </url><url>
     <loc>https://obertguo.ml/tags/chemistry/</loc>
@@ -34,9 +43,6 @@
   </url><url>
     <loc>https://obertguo.ml/tags/school/</loc>
     <lastmod>2021-05-15T22:57:46-04:00</lastmod>
-  </url><url>
-    <loc>https://obertguo.ml/contact/</loc>
-    <lastmod>2021-05-14T21:41:31-04:00</lastmod>
   </url><url>
     <loc>https://obertguo.ml/categories/</loc>
   </url>

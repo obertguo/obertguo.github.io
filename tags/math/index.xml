@@ -6,7 +6,18 @@
     <description>Recent content in Math on Obert Guo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 May 2021 16:29:44 -0400</lastBuildDate><atom:link href="https://obertguo.ml/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 21:39:36 -0400</lastBuildDate><atom:link href="https://obertguo.ml/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Euclid 2019</title>
+      <link>https://obertguo.ml/posts/euclid-2019/</link>
+      <pubDate>Tue, 29 Jun 2021 21:39:36 -0400</pubDate>
+      
+      <guid>https://obertguo.ml/posts/euclid-2019/</guid>
+      <description>1a Joyce has two identical jars. The first jar is 3/4 full of water and contains 300 mL of water. The second jar is 1/4 full of water. How much water, in mL, does the second jar contain?
+$$ \frac{3}{4} \text{water} = 300mL $$ $$ \frac{1}{4} = 100mL $$ $$ \therefore \text{The second jar has 100mL of water} $$
+1b What integer a satisfies 3 &amp;lt; 24/a &amp;lt; 4 ?</description>
+    </item>
+    
     <item>
       <title>Paper Division</title>
       <link>https://obertguo.ml/posts/paper-division/</link>

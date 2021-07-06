@@ -200,7 +200,7 @@ img{
 }
 
 .katex {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.7em;
     /* allow users to scroll if formula becomes too long */
     overflow-x: auto;
