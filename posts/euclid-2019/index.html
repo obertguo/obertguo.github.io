@@ -359,6 +359,47 @@ $$\cos x + \sin x = \frac{\pi}{3}$$
 $$\cos^2 x + 2\cos x\sin x + \sin^2 x = \frac{\pi^2}{9}$$
 $$2\cos x\sin x = \frac{\pi^2 - 9}{9}$$
 $$\therefore \sin 2x = \frac{\pi^2 - 9}{9}$$</p>
+<h2 id="9">9</h2>
+<p>For positive integers a and b, define f(a, b) = a/b + b/a + 1/ab.
+For example, the value of f(1, 2) is 3</p>
+<h2 id="9a">9a</h2>
+<p>Determine the value of f(2, 5).</p>
+<p>$$ f(2,5) = \frac{2}{5} + \frac{5}{2} + \frac{1}{2\times5}$$
+$$ = \frac{4}{10} + \frac{25}{10} + \frac{1}{10}$$
+$$ \therefore f(2,5) = 3 $$</p>
+<h2 id="9b">9b</h2>
+<p>Determine all positive integers a for which f(a, a) is an integer.</p>
+<p>$$ f(a,a) = \frac{a}{a} + \frac{a}{a} + \frac{1}{a^2}$$
+$$ = 1 + 1 + \frac{1}{a^2} $$
+$$\because f(a,a) \in \Z \text{ and } a \in \N \therefore a = 1$$</p>
+<h2 id="9c">9c</h2>
+<p>If a and b are positive integers and f(a, b) is an integer, prove that f(a, b) must
+be a multiple of 3.</p>
+<p>$$\text{Let } f(a,b) = k \text{ and } k \in \Z$$
+$$k = \frac{a}{b} + \frac{b}{a} + \frac{1}{ab}$$
+$$k = \frac{a^2 + b^2 + 1}{ab}$$
+$$\text{Assuming that k is not divisible by 3, then k can be represented as either } 3m + 1 \text{ or } 3m-1 \text{, which is } \cong 3m + 2, m \in \Z$$ 
+$$\text{If } k = 3m+1 \text{, then }$$
+$$3m+1 = \frac{a^2+b^2+1}{ab}$$
+$$3mab + ab = a^2 + b^2 + 1$$
+$$3mab = a^2 + b^2 + 1 - ab$$
+$$\because \text{the L.S. side has } m \in \Z, a,b \in \N$$
+$$\therefore \frac{a^2 + b^2 + 1 - ab}{3} \in \Z$$ 
+$$\implies a^2 + b^2 + 1 - ab \cong 0 \text{ mod}3$$
+$$\implies a^2 \text{ mod} 3 + b^2 \text{ mod} 3 + 1\text{ mod} 3 - ab\text{ mod} 3 \cong 0{ mod} 3$$
+$$\text{Note that } a \text{ and } b \cong \pm1 \text{ or } 0 \text{ mod} 3$$
+$$\text{The L.S. side will either be } \cong 1 \text{ or } 2 \text{ mod}3$$</p>
+<p>$$\because 1 \not\cong 0 \text{ mod}3 \text{ and } 2 \not\cong 0 \text{ mod}3$$
+$$\therefore \text{Contradiction when }k = 3m+1$$
+$$\text{Similar reasoning can be applied to when } k = 3m-1 \text{ and the same contradiction will occur}$$
+$$\therefore k \cong 0 \text{ mod}3$$ 
+$$\text{To further illustrate this, let } k = 3m, m \in \Z$$
+$$3mab = a^2 + b^2 + 1$$
+$$\because a,b \in \N \text{ and } n \in \Z \therefore a^2 + b^2 + 1 \cong 0 \text{ mod}3$$
+$$\implies a^2 \text{ mod}3 + b^2 \text{ mod}3 + 1\text{ mod}3 \cong 0 \text{ mod}3$$
+$$\because a \text{ and } b \cong \pm1 \text{ or } 0 \text{ mod} 3$$
+$$\implies a \text{ and } b \cong \pm 1 \text{ mod}3$$
+$$\therefore k \cong 0 \text{ mod}3 \iff a \text{ and } b \cong \pm1 \text{ mod} 3$$</p>
 
 
     </div>
